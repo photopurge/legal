@@ -1,7 +1,7 @@
 # Privacy Policy for PhotoPurge
 
 **Effective date:** __11 MAY 2026__
-**Contact:** __appdevsupport123@gmail.com__
+**Contact:** __heylonstudio@gmail.com__
 
 This privacy policy describes how the PhotoPurge mobile application ("PhotoPurge", "the app", "we", "our") handles your information. PhotoPurge is a photo and video cleanup utility distributed via the Apple App Store and Google Play.
 
@@ -89,4 +89,4 @@ Network communication between PhotoPurge and the third-party services listed abo
 We may update this privacy policy from time to time, for example to reflect new third-party services or changes in regulation. The "Effective date" at the top of this document indicates when the latest version became active. Material changes will be announced in the app's release notes.
 ## 9. Contact
 Questions, requests, or complaints about this policy can be sent to:
-**__appdevsupport123@gmail.com__**
+**__heylonstudio@gmail.com__**
