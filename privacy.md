@@ -13,8 +13,8 @@ PhotoPurge requests access to your **photo and video library** so it can show yo
 
 - Photos and videos are read from your local photo library to display previews and allow you to swipe through them.
 - When you tap "Trash", the item is queued for deletion. Deletion happens locally on the device, through the operating system's standard photo library API.
-- We **do not** copy, upload, transmit, or store any of your photos or videos on any server.
-- We **do not** read photo metadata for purposes other than displaying date and basic file information to you in the app's UI.
+
+- We do not copy, upload, transmit, or store your photos or videos on any server operated by us. Information from your library (including metadata or derived signals) may be processed on your device only as needed to provide features you use (for example previews, dates, filtering, and helpers such as duplicates or screenshots detection).
 
 ## 2. Information collected by third-party services
 
@@ -22,21 +22,13 @@ PhotoPurge integrates a small number of third-party services to enable advertisi
 
 ### a. Advertising — Google AdMob
 
-The free version of PhotoPurge displays advertising provided by Google AdMob. AdMob may collect:
+PhotoPurge uses Google AdMob in the free version. Advertising is limited to optional rewarded video ads. Those ads may appear only if you choose to watch them—for example after you reach the free swipe limit, to earn extra swipes. PhotoPurge does not show banner ads or fullscreen interstitial ads triggered by the app itself as part of normal use.
 
-- Your **device's advertising identifier** (IDFA on iOS, AAID on Android), which you can reset or disable at any time in your device settings.
-- Coarse approximate location derived from IP address.
-- Information about your device (model, OS version, language).
-- App-interaction events used by AdMob to measure ad performance.
+Depending on device settings and Google’s policies, rewarded ads may involve standard ad-related mechanisms (for example measurement or eligibility checks). AdMob may collect data such as advertising identifiers (for example AAID / IDFA where applicable), coarse location derived from IP address, device information (such as model and OS version), language/locale, and app or ad interaction events used to deliver and measure advertising. How Google handles such data is explained in Google’s Privacy Policy: https://policies.google.com/privacy
 
-These are used by Google to deliver and measure ads. We do not see or store this data ourselves. Google's handling of this data is described in the Google Privacy Policy: https://policies.google.com/privacy
+Where your device or OS allows, you can limit ad personalisation or reset advertising identifiers—for example via your Google or Apple account and privacy settings (wording and menu paths vary by version).
 
-You can opt out of personalised advertising on your device at any time:
-
-- **Android:** Settings → Google → Ads → "Delete advertising ID" / "Opt out of Ads Personalisation".
-- **iOS:** Settings → Privacy & Security → Tracking → disable "Allow Apps to Request to Track".
-
-Pro (paid) users do not see ads, and AdMob is not initialised on Pro devices.
+Pro (paid) subscribers are not shown the rewarded advertising flow described above through PhotoPurge’s own presentation logic. The Google Mobile Ads SDK may still be included in the app binary and initialised during app startup (for example before or after your subscription status is known); we do not use it to show paid subscribers the rewarded ads used to earn extra swipes on the free tier.
 
 ### b. Subscriptions and purchases — RevenueCat
 
@@ -75,18 +67,23 @@ PhotoPurge is intended for users 18 and older. We do not knowingly collect or so
 
 PhotoPurge will, depending on your operating system, request:
 
-- **Photo library access** — required for the app to function (it is a photo cleanup tool).
-- **Notifications** — optional, used only for non-marketing reminders such as confirming deletion completion.
+- **Photo library access** — required for the app to function.
+In some cases, **Google's advertising components** or the **operating system** may surface permissions or settings related to ads or related features. PhotoPurge does **not** implement its own notification-based marketing programme in the current release.
+
+You can revoke any permission at any time in your device's system settings. Revoking photo access will prevent the app from functioning, since reviewing photos is its sole purpose.
 
 You can revoke any permission at any time in your device's system settings. Revoking photo access will prevent the app from functioning, since reviewing photos is its sole purpose.
 
 ## 6. Data retention and deletion
 Because PhotoPurge does not collect or store your photos or personal data on any server, there is nothing on our side to retain or delete. Subscription receipts retained by RevenueCat are kept for the duration required by Apple and Google's billing and tax obligations.
 If you would like the pseudonymous RevenueCat identifier associated with your purchases removed from RevenueCat's records, contact us at the email above and we will submit a deletion request to RevenueCat on your behalf.
+
 ## 7. Security
 Network communication between PhotoPurge and the third-party services listed above (AdMob, RevenueCat, Apple, Google) is encrypted in transit using HTTPS / TLS. Photos and videos remain in your device's secure system photo library.
+
 ## 8. Changes to this policy
 We may update this privacy policy from time to time, for example to reflect new third-party services or changes in regulation. The "Effective date" at the top of this document indicates when the latest version became active. Material changes will be announced in the app's release notes.
+
 ## 9. Contact
 Questions, requests, or complaints about this policy can be sent to:
 **__heylonstudio@gmail.com__**
