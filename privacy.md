@@ -84,6 +84,9 @@ Network communication between PhotoPurge and the third-party services listed abo
 ## 8. Changes to this policy
 We may update this privacy policy from time to time, for example to reflect new third-party services or changes in regulation. The "Effective date" at the top of this document indicates when the latest version became active. Material changes will be announced in the app's release notes.
 
-## 9. Contact
+## 9. Support
+For help with PhotoPurge, contact : heylonstudio@gmail.com
+
+## 10. Contact
 Questions, requests, or complaints about this policy can be sent to:
 **__heylonstudio@gmail.com__**
