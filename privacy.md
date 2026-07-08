@@ -5,6 +5,8 @@
 
 This privacy policy describes how the PhotoPurge mobile application ("PhotoPurge", "the app", "we", "our") handles your information. PhotoPurge is a photo and video cleanup utility distributed via the Apple App Store and Google Play.
 
+This app is also governed by its Terms of Use (End User License Agreement): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+
 We have intentionally designed PhotoPurge to operate locally on your device wherever possible. The vast majority of what the app does — reading your photo library, building previews, queueing items for deletion, organising them into folders, computing duplicates — happens **entirely on your device**. Photos and videos are never uploaded to our servers, because we do not operate any servers that receive your media.
 
 ## 1. Information accessed on your device
@@ -27,6 +29,10 @@ PhotoPurge uses Google AdMob in the free version. Advertising is limited to opti
 Depending on device settings and Google’s policies, rewarded ads may involve standard ad-related mechanisms (for example measurement or eligibility checks). AdMob may collect data such as advertising identifiers (for example AAID / IDFA where applicable), coarse location derived from IP address, device information (such as model and OS version), language/locale, and app or ad interaction events used to deliver and measure advertising. How Google handles such data is explained in Google’s Privacy Policy: https://policies.google.com/privacy
 
 Where your device or OS allows, you can limit ad personalisation or reset advertising identifiers—for example via your Google or Apple account and privacy settings (wording and menu paths vary by version).
+
+**Apple App Tracking Transparency (iOS).** On iOS, before the advertising identifier (IDFA) is used to track you, the app presents Apple's App Tracking Transparency prompt. If you decline, rewarded ads may still work but will not be personalised using tracking. You can change this at any time in iOS Settings → Privacy & Security → Tracking.
+
+**Consent in the EEA, UK, and Switzerland.** Where required by law, Google's User Messaging Platform (UMP) shows a consent form before personalised ads are used. Your choice is recorded by Google's consent framework and can be updated later from your device settings.
 
 Pro (paid) subscribers are not shown the rewarded advertising flow described above through PhotoPurge’s own presentation logic. The Google Mobile Ads SDK may still be included in the app binary and initialised during app startup (for example before or after your subscription status is known); we do not use it to show paid subscribers the rewarded ads used to earn extra swipes on the free tier.
 
@@ -72,21 +78,32 @@ In some cases, **Google's advertising components** or the **operating system** m
 
 You can revoke any permission at any time in your device's system settings. Revoking photo access will prevent the app from functioning, since reviewing photos is its sole purpose.
 
-You can revoke any permission at any time in your device's system settings. Revoking photo access will prevent the app from functioning, since reviewing photos is its sole purpose.
-
 ## 6. Data retention and deletion
 Because PhotoPurge does not collect or store your photos or personal data on any server, there is nothing on our side to retain or delete. Subscription receipts retained by RevenueCat are kept for the duration required by Apple and Google's billing and tax obligations.
 If you would like the pseudonymous RevenueCat identifier associated with your purchases removed from RevenueCat's records, contact us at the email above and we will submit a deletion request to RevenueCat on your behalf.
 
-## 7. Security
+## 7. Your rights and choices
+
+Depending on where you live (for example under the EU/UK GDPR or the California CCPA/CPRA), you may have rights to access, correct, or delete personal data, and to object to or restrict certain processing.
+
+Because PhotoPurge has no accounts and stores no personal data on our servers, most of these rights are satisfied on the device itself:
+
+- **Your media:** your photos and videos never leave your device, so you remain in full control of them at all times.
+- **Advertising data:** you can limit ad personalisation or reset your advertising identifier in your device settings, and on iOS via the App Tracking Transparency choice described above.
+- **Subscription identifier:** to request deletion of the pseudonymous RevenueCat identifier tied to your purchases, email us and we will submit the request on your behalf.
+- **We do not sell or share your personal data** for cross-context behavioural advertising as defined under California law.
+
+To exercise any right, contact us at heylonstudio@gmail.com. We will respond within the timeframe required by applicable law.
+
+## 8. Security
 Network communication between PhotoPurge and the third-party services listed above (AdMob, RevenueCat, Apple, Google) is encrypted in transit using HTTPS / TLS. Photos and videos remain in your device's secure system photo library.
 
-## 8. Changes to this policy
+## 9. Changes to this policy
 We may update this privacy policy from time to time, for example to reflect new third-party services or changes in regulation. The "Effective date" at the top of this document indicates when the latest version became active. Material changes will be announced in the app's release notes.
 
-## 9. Support
+## 10. Support
 For help with PhotoPurge, contact : heylonstudio@gmail.com
 
-## 10. Contact
+## 11. Contact
 Questions, requests, or complaints about this policy can be sent to:
 **__heylonstudio@gmail.com__**
