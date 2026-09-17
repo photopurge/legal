@@ -5,7 +5,7 @@ title: Retire Roadmap Support
 # Retire Roadmap Support
 
 **Developer:** Heylon Studio  
-**Last updated:** 15 September 2026  
+**Last updated:** 17 September 2026  
 **Contact:** [heylonstudio@gmail.com](mailto:heylonstudio@gmail.com)
 
 Retire Roadmap is a retirement planning app for iPhone, iPad, and Android. Use the form below to ask a question or report a problem. Your message is emailed to **heylonstudio@gmail.com**.
@@ -85,25 +85,35 @@ Retire Roadmap is a retirement planning app for iPhone, iPad, and Android. Use t
 
 ## What to include
 
-- The device and OS version (for example iPad Air, iPadOS 18)
-- The app version from Settings or the App Store listing
+- The device and OS version (for example iPhone / iPadOS 18, or Pixel / Android 15)
+- The app version from the App Store or Google Play listing
+- Whether you are on iOS or Android
 - What you were trying to do, and what happened instead
-- For purchases: whether you used Monthly, Yearly, or Lifetime, and the Apple ID country if relevant
+- For purchases: Monthly, Yearly, or Lifetime, and the store country if relevant
 
 Please do not email passwords, payment card numbers, or your full portfolio details unless they are needed to reproduce a bug.
 
 ## Premium, subscriptions, and restore
 
-Optional Premium unlocks up to eight assets, roadmap exports (PDF / Excel), and an ad-free experience. Payment is handled only by Apple or Google. We never see your card details.
+Optional Premium unlocks up to eight assets, roadmap exports (PDF / Excel), and an ad-free experience. Payment is handled only by the Apple App Store or Google Play. We never see your card details.
 
-- **Restore a purchase:** open Retire Roadmap, tap the ⋮ menu, then **Restore purchases**. Sign in with the same Apple ID you used to buy.
-- **Manage or cancel a subscription:** on your Apple device go to Settings → [your name] → Subscriptions, or use [apps.apple.com/account/subscriptions](https://apps.apple.com/account/subscriptions).
+- **Restore a purchase:** open Retire Roadmap, tap the ⋮ menu, then **Restore purchases**. Use the same Apple ID or Google account you used to buy.
+
+**iPhone and iPad**
+
+- **Manage or cancel a subscription:** Settings → [your name] → Subscriptions, or [apps.apple.com/account/subscriptions](https://apps.apple.com/account/subscriptions).
 - **Refunds:** request these from Apple via [reportaproblem.apple.com](https://reportaproblem.apple.com/). We cannot issue App Store refunds ourselves.
+
+**Android**
+
+- **Manage or cancel a subscription:** Google Play → Payments & subscriptions, or [play.google.com/store/account/subscriptions](https://play.google.com/store/account/subscriptions).
+- **Refunds:** request these from Google Play via [support.google.com/googleplay/answer/2479637](https://support.google.com/googleplay/answer/2479637). We cannot issue Play Store refunds ourselves.
 
 ## Privacy and terms
 
 - [Privacy Policy](/legal/retire-roadmap-privacy.html)
-- [Apple Licensed Application End User License Agreement](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/)
+- iOS: [Apple Licensed Application End User License Agreement](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/)
+- Android: [Google Play Terms of Service](https://play.google.com/about/play-terms/)
 
 ## Contact
 
