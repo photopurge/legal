@@ -12,7 +12,7 @@ Retire Roadmap is a retirement planning app for iPhone, iPad, and Android. Use t
 
 Common questions about assets, spending, growth, and the roadmap are answered on the Q&A page.
 
-<a class="qa-button" href="/legal/retire-roadmap-qa.html">Open Q&A</a>
+<a class="qa-button" href="https://heylonstudio.github.io/legal/retire-roadmap-qa.html">Open Q&A</a>
 
 <style>
   .support-form {
