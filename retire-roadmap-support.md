@@ -5,10 +5,14 @@ title: Retire Roadmap Support
 # Retire Roadmap Support
 
 **Developer:** Heylon Studio  
-**Last updated:** 17 September 2026  
+**Last updated:** 27 September 2026  
 **Contact:** [heylonstudio@gmail.com](mailto:heylonstudio@gmail.com)
 
 Retire Roadmap is a retirement planning app for iPhone, iPad, and Android. Use the form below to ask a question or report a problem. Your message is emailed to **heylonstudio@gmail.com**.
+
+Common questions about assets, spending, growth, and the roadmap are answered on the Q&A page.
+
+<a class="qa-button" href="/legal/retire-roadmap-qa.html">Open Q&A</a>
 
 <style>
   .support-form {
@@ -53,6 +57,16 @@ Retire Roadmap is a retirement planning app for iPhone, iPad, and Android. Use t
   .support-form .ok { color: #1a7f37; }
   .support-form .err { color: #cf222e; }
   .hp { position: absolute; left: -9999px; height: 0; overflow: hidden; }
+  .qa-button {
+    display: inline-block;
+    border-radius: 8px;
+    padding: 0.65rem 1.1rem;
+    font-weight: 700;
+    color: #fff;
+    background: #0969da;
+    text-decoration: none;
+    margin: 0 0 1.5rem;
+  }
 </style>
 
 <form class="support-form" id="support-form">
