@@ -5,7 +5,7 @@ title: Retire Roadmap Support
 # Retire Roadmap Support
 
 **Developer:** Heylon Studio  
-**Last updated:** 27 September 2026  
+**Last updated:** 11 October 2026  
 **Contact:** [heylonstudio@gmail.com](mailto:heylonstudio@gmail.com)
 
 Retire Roadmap is a retirement planning app for iPhone, iPad, and Android. Use the form below to ask a question or report a problem. Your message is emailed to **heylonstudio@gmail.com**.
@@ -109,7 +109,9 @@ Please do not email passwords, payment card numbers, or your full portfolio deta
 
 ## Premium, subscriptions, and restore
 
-Optional Premium unlocks up to eight assets, roadmap exports (PDF / Excel), and an ad-free experience. Payment is handled only by the Apple App Store or Google Play. We never see your card details.
+There is no ongoing free version. Monthly and Yearly include 7 days free for new subscribers. There is no payment today. Cancel anytime before those 7 days end and you will not be charged. After 7 days, Apple or Google charges the plan price unless you cancel, and the subscription renews until you cancel. Lifetime is a one-time payment with no trial and no renewal.
+
+An active trial or purchase includes up to eight assets, roadmap exports (PDF / Excel), and an ad-free experience. Payment is handled only by the Apple App Store or Google Play. We never see your card details.
 
 - **Restore a purchase:** open Retire Roadmap, tap the ⋮ menu, then **Restore purchases**. Use the same Apple ID or Google account you used to buy.
 
