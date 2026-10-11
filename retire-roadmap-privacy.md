@@ -50,7 +50,7 @@ To verify your subscription status across devices and sessions, we use RevenueCa
 - Subscription status (active, expired, in grace period, etc.).
 - Country code and the store-product identifier you purchased.
 
-RevenueCat's privacy policy: [https://www.revenuecat.com/privacy/](https://www.revenuecat.com/privacy/)
+RevenueCat's privacy policy: [https://www.revenuecat.com/privacy](https://www.revenuecat.com/privacy)
 
 We use this data only to determine whether your device should be treated as Premium and to honour restore-purchase requests as required by the App Store and Play Store.
 
@@ -58,16 +58,16 @@ We use this data only to determine whether your device should be treated as Prem
 
 When you add a listed stock or crypto asset, tap **Fetch Latest Prices**, or when the app loads exchange rates for currency display, it contacts public third-party services over the internet. These requests are made **from your device** and are limited to what each service needs to return a quote or rate. We do not route your full portfolio through our own servers.
 
-**Stock quotes** are fetched automatically — no account or API key is required from you. The app tries **Yahoo Finance** public market-data endpoints first, then **[Finnhub](https://finnhub.io/privacy-policy)** as a backup if the first source does not return a usable price. Yahoo requests send only the ticker symbol(s) you entered. Finnhub requests send the ticker symbol(s) and an API token (the app's built-in token, or your optional personal key stored on device if you added one).
+**Stock quotes** are fetched automatically — no account or API key is required from you. The app tries **Yahoo Finance** public market-data endpoints first, then **[Finnhub](https://finnhub.io/terms-of-service)** as a backup if the first source does not return a usable price. Yahoo requests send only the ticker symbol(s) you entered. Finnhub requests send the ticker symbol(s) and an API token (the app's built-in token, or your optional personal key stored on device if you added one).
 
 Depending on which asset type you refresh, requests may go to:
 
 | Purpose | Provider | What is sent (examples) |
 |--------|----------|-------------------------|
 | Stock quotes (primary) | Yahoo Finance ([Yahoo Privacy Policy](https://legal.yahoo.com/us/en/yahoo/privacy/index.html)) | Stock ticker symbol(s) derived from what you entered (for example `AAPL`, `TSLA`) |
-| Stock quotes (backup) | [Finnhub](https://finnhub.io/privacy-policy) | Stock ticker symbol(s); an API token (the app's built-in default or your optional personal key stored on device) |
+| Stock quotes (backup) | [Finnhub](https://finnhub.io/terms-of-service) | Stock ticker symbol(s); an API token (the app's built-in default or your optional personal key stored on device) |
 | Crypto quotes | [CoinGecko](https://www.coingecko.com/en/privacy) and/or [Binance](https://www.binance.com/en/privacy) | Cryptocurrency identifier or trading pair derived from the ticker you entered |
-| Exchange rates | [ExchangeRate-API](https://www.exchangerate-api.com/privacy) | A request for USD-based FX rates (no portfolio payload) |
+| Exchange rates | [ExchangeRate-API](https://www.exchangerate-api.com/terms) | A request for USD-based FX rates (no portfolio payload) |
 
 Those providers handle data under their own policies. They may log IP address, request metadata, and API usage in line with their terms. Yahoo Finance is accessed through public quote endpoints rather than a user-signup API product. Retire Roadmap does not send your asset labels, account numbers, or retirement spending amounts to these market-data services — only the symbols or identifiers needed to look up prices or rates.
 
